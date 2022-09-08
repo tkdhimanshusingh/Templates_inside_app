@@ -1,4 +1,4 @@
 from django.shortcuts import render
 # Create your views here.
-def learn_dj(request):
+def learndj(request):
     return render(request,'course/info.html')
